@@ -54,7 +54,7 @@ jobs:
       - name: Checkout Kustomize chart Repository
         uses: actions/checkout@v4
         with:
-          repository: zawthanoo/workshop-apps
+          repository: rin588/workshop-apps
           path: deployment
           token: ${{ secrets.MY_GITHUB_TOKEN }}
 
